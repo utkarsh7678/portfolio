@@ -403,12 +403,12 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="testimonial-card">
-                        <div class="testimonial-stars">Aditya Rai</div>
+                        <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Utkarsh built my portfolio website quickly and professionally. Very clean design and easy to navigate."</p>
                         <div class="testimonial-author">
                             <div class="author-avatar">A</div>
                             <div>
-                                <div class="author-name">Classmate / Friend</div>
+                                <div class="author-name">Aditya Rai</div>
                                 <div class="author-role">B.Tech CSE, Galgotias University</div>
                             </div>
                         </div>
@@ -419,7 +419,7 @@
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Helped me fix critical bugs in my final year project and deployed it live. Saved me days of effort."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">B</div>
+                            <div class="author-avatar">A</div>
                             <div>
                                 <div class="author-name">Aman kumar</div>
                                 <div class="author-role">B.Tech CSE, Galgotias University</div>
@@ -432,7 +432,7 @@
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Great at explaining concepts and helping with REST API development. Highly recommended for project work."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">C</div>
+                            <div class="author-avatar">S</div>
                             <div>
                                 <div class="author-name">Shivesh Yadav</div>
                                 <div class="author-role">B.Tech CSE, Galgotias University</div>
