@@ -515,8 +515,8 @@
             <div class="footer-social mb-3">
                 <a href="https://github.com/utkarsh7678" target="_blank"><i class="fab fa-github fa-lg"></i></a>
                 <a href="https://www.linkedin.com/in/utkarsh-kumar-0725a920a/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-                  <a href="https://www.upwork.com" target="https://www.upwork.com/freelancers/~018bb4dff5203ad772?mp_source=share" title="Upwork"><i class="fab fa-upwork fa-lg"></i></a>
-                <a href="https://www.fiverr.com" target="https://www.fiverr.com/utkarsh7678/buying?source=avatar_menu_profile" title="Fiverr"><i class="fas fa-dollar-sign fa-lg"></i></a>
+<a href="https://www.upwork.com/freelancers/~018bb4dff5203ad772?mp_source=share" target="_blank" title="Upwork" class="upwork-btn">Upwork</a>
+                <a href="https://www.fiverr.com/utkarsh7678/buying?source=avatar_menu_profile" target="_blank" title="Fiverr"><i class="fas fa-dollar-sign fa-lg"></i></a>
                 <a href="mailto:utkarsh1032004@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
             </div>
             <p class="footer-text mb-0">&copy; 2026 Utkarsh Kumar. All rights reserved.</p>
