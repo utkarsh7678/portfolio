@@ -28,6 +28,7 @@
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -336,7 +337,117 @@
             </div>
         </div>
     </section>
+</section>
 
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Services I Offer</h2>
+            <div class="section-divider mx-auto mb-5"></div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h5>Portfolio Websites</h5>
+                        <p>Professional portfolio websites for students and freshers to land their first job.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-file-alt"></i></div>
+                        <h5>ATS-Friendly Resumes</h5>
+                        <p>Clean, recruiter-approved resumes and personal websites that pass ATS filters.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                        <h5>MERN Stack Web Apps</h5>
+                        <p>Full-stack web applications built with MongoDB, Express, React, and Node.js.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-plug"></i></div>
+                        <h5>REST API Development</h5>
+                        <p>Scalable REST APIs using Java Servlets or Node.js with proper documentation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-bug"></i></div>
+                        <h5>Bug Fixing &amp; Deployment</h5>
+                        <p>Debugging broken projects and deploying them live on Railway, Render, or Vercel.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h5>Final Year Project Mentoring</h5>
+                        <p>Guidance and development support for B.Tech final year projects end-to-end.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#contact" class="btn btn-primary btn-lg me-3">Hire Me</a>
+                <a href="mailto:utkarsh1032004@gmail.com" class="btn btn-outline-light btn-lg">Book a Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 skills-section">
+        <div class="container">
+            <h2 class="section-title text-center">What People Say</h2>
+            <div class="section-divider mx-auto mb-5"></div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">Aditya Rai</div>
+                        <p class="testimonial-text">"Utkarsh built my portfolio website quickly and professionally. Very clean design and easy to navigate."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">A</div>
+                            <div>
+                                <div class="author-name">Classmate / Friend</div>
+                                <div class="author-role">B.Tech CSE, Galgotias University</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Helped me fix critical bugs in my final year project and deployed it live. Saved me days of effort."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">B</div>
+                            <div>
+                                <div class="author-name">Aman kumar</div>
+                                <div class="author-role">B.Tech CSE, Galgotias University</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Great at explaining concepts and helping with REST API development. Highly recommended for project work."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">C</div>
+                            <div>
+                                <div class="author-name">Shivesh Yadav</div>
+                                <div class="author-role">B.Tech CSE, Galgotias University</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-4" style="color:var(--text-secondary);font-size:0.85rem;">
+                
+            </p>
+        </div>
+    </section>
+
+    
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
@@ -404,6 +515,8 @@
             <div class="footer-social mb-3">
                 <a href="https://github.com/utkarsh7678" target="_blank"><i class="fab fa-github fa-lg"></i></a>
                 <a href="https://www.linkedin.com/in/utkarsh-kumar-0725a920a/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                  <a href="https://www.upwork.com" target="https://www.upwork.com/freelancers/~018bb4dff5203ad772?mp_source=share" title="Upwork"><i class="fab fa-upwork fa-lg"></i></a>
+                <a href="https://www.fiverr.com" target="https://www.fiverr.com/utkarsh7678/buying?source=avatar_menu_profile" title="Fiverr"><i class="fas fa-dollar-sign fa-lg"></i></a>
                 <a href="mailto:utkarsh1032004@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
             </div>
             <p class="footer-text mb-0">&copy; 2026 Utkarsh Kumar. All rights reserved.</p>

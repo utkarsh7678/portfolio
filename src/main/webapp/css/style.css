@@ -378,7 +378,80 @@ a { text-decoration: none; transition: all 0.3s ease; }
 .cert-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 3px; }
 .cert-org { font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 2px; }
 .cert-date { font-size: 0.78rem; color: var(--primary); margin: 0; }
+/* =======================
+   Services Section
+======================= */
+#services { background: var(--card-bg); }
+.service-card {
+    background: var(--card-bg-2);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    height: 100%;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(0,212,170,0.4);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+.service-icon {
+    width: 60px; height: 60px;
+    background: linear-gradient(135deg, rgba(0,212,170,0.15), rgba(13,110,253,0.15));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+.service-icon i { font-size: 1.4rem; color: var(--accent); }
+.service-card h5 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; }
+.service-card p { font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.6; }
 
+/* =======================
+   Testimonials Section
+======================= */
+.testimonial-card {
+    background: var(--card-bg-2);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(13,110,253,0.3);
+}
+.testimonial-card::before {
+    content: '"';
+    position: absolute;
+    top: 1rem; left: 1.5rem;
+    font-size: 4rem;
+    color: rgba(13,110,253,0.2);
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+.testimonial-stars { color: #ffc107; font-size: 1rem; margin-bottom: 1rem; }
+.testimonial-text {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+.testimonial-author { display: flex; align-items: center; gap: 12px; }
+.author-avatar {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 1rem; color: #fff; flex-shrink: 0;
+}
+.author-name { font-size: 0.9rem; font-weight: 600; color: #fff; }
+.author-role { font-size: 0.78rem; color: var(--text-secondary); }
 /* =======================
    Contact Section
 ======================= */
