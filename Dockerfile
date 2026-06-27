@@ -8,5 +8,8 @@ RUN mvn clean package -DskipTests -q
 FROM tomcat:10.1-jdk21-temurin
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 COPY --from=build /app/target/portfolio-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
-COPY docker/server.xml /usr/local/tomcat/conf/server.xml
-CMD ["catalina.sh", "run"]
+
+COPY docker/start.sh /start.sh
+RUN chmod +x /start.sh
+
+CMD ["/start.sh"]
